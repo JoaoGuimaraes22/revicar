@@ -1,15 +1,240 @@
 {
   "metadata": {
-    "name": "Nome do Negócio",
-    "title": "Nome do Negócio | Cidade",
-    "description": "Bem-vindo ao meu site.",
-    "phone": "",
-    "email": "",
-    "address": "",
-    "type": "LocalBusiness"
+    "name": "Revicar",
+    "title": "Revicar - Reparações Automóveis | Carcavelos",
+    "description": "Oficina de reparação automóvel de confiança em Carcavelos. Mecânica, chapa e pintura, eletricista, climatização e pneus para todas as marcas.",
+    "phone": "+351 21 457 8709",
+    "email": "info@revicar.mail.pt",
+    "address": "R. Plácido de Abreu 2, 2775-617 Carcavelos",
+    "type": "AutoRepair"
   },
-  "home": {
-    "title": "Bem-vindo",
-    "description": "Este e o ponto de partida do seu projeto. Edite esta pagina para comecar."
+  "navbar": {
+    "brand": "Revicar",
+    "cta": "Pedir Orçamento",
+    "links": [
+      { "id": "about", "label": "Sobre Nós" },
+      { "id": "services", "label": "Serviços" },
+      { "id": "testimonials", "label": "Opiniões" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contacto" }
+    ]
+  },
+  "hero": {
+    "title_line1": "O SEU CARRO,",
+    "title_line2": "O NOSSO CUIDADO.",
+    "tagline": "Oficina de reparação automóvel completa para todas as marcas. Mecânica, chapa e pintura, eletricista, climatização e pneus — a confiança de Carcavelos desde 1985.",
+    "cta": "Pedir Orçamento",
+    "cta_secondary": "Nossos Serviços",
+    "stats": [
+      { "value": "4.5★", "label": "Avaliação" },
+      { "value": "124+", "label": "Opiniões" },
+      { "value": "40+", "label": "Anos" }
+    ],
+    "ticker": [
+      { "text": "MECÂNICA" },
+      { "text": "CHAPA E PINTURA" },
+      { "text": "ELETRICISTA" },
+      { "text": "CLIMATIZAÇÃO" },
+      { "text": "PNEUS" }
+    ]
+  },
+  "statsCounters": {
+    "title_line1": "NÚMEROS DE",
+    "title_line2": "CONFIANÇA",
+    "items": [
+      { "label": "Avaliações Google", "target": 124, "suffix": "+" },
+      { "label": "Avaliação Google", "target": 4.5, "suffix": "★" },
+      { "label": "Serviços", "target": 5, "suffix": "" },
+      { "label": "Anos de Experiência", "target": 40, "suffix": "+" }
+    ]
+  },
+  "about": {
+    "title_line1": "O SEU MECÂNICO",
+    "title_line2": "DE CONFIANÇA",
+    "body": "Desde 1985, a Revicar é o mecânico de confiança de Carcavelos. Há mais de 40 anos, construímos a nossa reputação com base num serviço honesto, trabalho de qualidade e tratando cada cliente como família.\n\nA nossa oficina trata de tudo, desde mudanças de óleo de rotina a reparações complexas de motor, restauro de chapa e pintura, e diagnósticos elétricos. Trabalhamos com todas as marcas, e a nossa equipa experiente explica sempre o que o seu carro precisa — sem surpresas, sem trabalhos desnecessários.",
+    "stats": [
+      { "value": "1985", "label": "Fundada" },
+      { "value": "4.5★", "label": "Avaliação" },
+      { "value": "124+", "label": "Opiniões" }
+    ]
+  },
+  "services": {
+    "title_line1": "O QUE",
+    "title_line2": "FAZEMOS",
+    "items": [
+      {
+        "icon": "🔧",
+        "title": "Mecânica",
+        "description": "Diagnósticos de motor, mudanças de óleo, reparação de travões, suspensão, correias de distribuição — serviço mecânico completo para todas as marcas.",
+        "image": "/services/mechanics.jpg"
+      },
+      {
+        "icon": "🎨",
+        "title": "Chapa e Pintura",
+        "description": "Reparação de amolgadelas, remoção de riscos, repinturas completas e restauro de colisões — o seu carro como novo.",
+        "image": "/services/bodywork.jpg"
+      },
+      {
+        "icon": "⚡",
+        "title": "Eletricista",
+        "description": "Diagnósticos de bateria, reparação de alternador, problemas de cablagem e resolução de sistemas eletrónicos.",
+        "image": "/services/electrical.jpg"
+      },
+      {
+        "icon": "❄️",
+        "title": "Climatização",
+        "description": "Recarga de AC, reparação de compressor, manutenção do sistema de aquecimento — conforto durante todo o ano.",
+        "image": "/services/ac.jpg"
+      },
+      {
+        "icon": "🛞",
+        "title": "Pneus",
+        "description": "Montagem de pneus, equilíbrio, alinhamento e rotação. Pneus de qualidade de marcas de confiança a preços justos.",
+        "image": "/services/tyres.jpg"
+      }
+    ]
+  },
+  "galleryStrip": {
+    "images": [
+      { "src": "/gallery/1.jpg", "alt": "Interior da oficina Revicar" },
+      { "src": "/gallery/2.jpg", "alt": "Mecânico a trabalhar no motor" },
+      { "src": "/gallery/3.jpg", "alt": "Carro no elevador na Revicar" },
+      { "src": "/gallery/4.jpg", "alt": "Trabalho de chapa e pintura" },
+      { "src": "/gallery/5.jpg", "alt": "Equipamento de diagnóstico de motor" },
+      { "src": "/gallery/6.jpg", "alt": "Montagem e alinhamento de pneus" },
+      { "src": "/gallery/7.jpg", "alt": "Equipa Revicar em ação" },
+      { "src": "/gallery/8.jpg", "alt": "Carro finalizado após reparação" }
+    ]
+  },
+  "reviews": {
+    "title_line1": "O QUE DIZEM",
+    "title_line2": "OS CLIENTES",
+    "subtitle": "Opiniões reais de clientes reais.",
+    "items": [
+      {
+        "quote": "Honestos e profissionais. Fui à Norauto porque tenho cartão, mais uma vez não resolveram o problema. Liguei para a Revicar e não podiam ter sido mais profissionais e honestos do que foram. Ganharam um cliente!",
+        "name": "Pedro Fernandes",
+        "role": "Crítica Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Trabalho de excelência, recomendo! O atendimento é óptimo e o trabalho muito profissional. Sempre que deixo o meu carro fico muito satisfeita e confio a 100% no trabalho realizado pela Revicar — mesmo em situações de urgência sempre me conseguiram ajudar.",
+        "name": "Maria João Azinheira",
+        "role": "Crítica Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Entrei com dúvidas e bastante pessimista relativamente ao problema mecânico que tinha na viatura, mas saí com o problema resolvido. Recomendo vivamente, essencialmente pela competência, honestidade e simpatia demonstradas.",
+        "name": "Pedro Carmo",
+        "role": "Crítica Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Muito amigável, estava com um problema que a mim parecia difícil de resolver e me foi resolvido na hora. Acabamos de chegar no bairro e já virei cliente!",
+        "name": "Rafael Madureira",
+        "role": "Crítica Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Mecânicos simpáticos, transparentes e competentes. Tive um problema com a minha van e eles consertaram em dois dias e meio. Com certeza voltaria lá!",
+        "name": "Jannes T",
+        "role": "Crítica Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Excelente serviço, com atitude muito séria. Passa a ser A oficina de confiança para as viaturas cá de casa.",
+        "name": "Júlio Martins",
+        "role": "Crítica Google",
+        "avatar": null,
+        "rating": 5
+      }
+    ]
+  },
+  "googleReviews": {
+    "title_line1": "GOSTOU DO",
+    "title_line2": "NOSSO TRABALHO?",
+    "subtitle": "A sua opinião ajuda outros condutores a encontrar um mecânico de confiança — e faz o dia da nossa equipa.",
+    "cta": "Deixar Opinião no Google",
+    "rating_label": "Avaliado no Google"
+  },
+  "faq": {
+    "title_line1": "PERGUNTAS",
+    "title_line2": "FREQUENTES",
+    "items": [
+      {
+        "question": "Trabalham com todas as marcas de carros?",
+        "answer": "Sim, fazemos manutenção e reparação de todas as marcas e modelos — desde marcas europeias como BMW, Mercedes e Volkswagen até marcas asiáticas como Toyota, Honda e Hyundai."
+      },
+      {
+        "question": "Preciso de marcação?",
+        "answer": "Recomendamos que ligue com antecedência para podermos planear a sua visita, mas são bem-vindos sem marcação para serviços rápidos como verificação de pneus ou diagnósticos de bateria."
+      },
+      {
+        "question": "Quanto tempo demora uma reparação típica?",
+        "answer": "Depende do serviço. Uma mudança de óleo demora cerca de 30 minutos, trabalho de travões 1-2 horas, e para reparações mais complexas damos-lhe um prazo claro à partida."
+      },
+      {
+        "question": "Fazem orçamentos gratuitos?",
+        "answer": "Sim, fazemos orçamentos gratuitos e sem compromisso para todos os serviços. Ligue-nos ou visite a oficina e avaliamos o seu carro."
+      },
+      {
+        "question": "Quais são os métodos de pagamento?",
+        "answer": "Aceitamos dinheiro, cartão de débito/crédito e transferência bancária. O pagamento é feito quando levanta o veículo."
+      },
+      {
+        "question": "Têm estacionamento?",
+        "answer": "Sim, temos espaço para estacionar quando entrega ou levanta o seu carro."
+      }
+    ]
+  },
+  "contact": {
+    "title_line1": "ENTRE EM",
+    "title_line2": "CONTACTO",
+    "body": "Precisa de uma reparação, um orçamento ou apenas um conselho? Ligue-nos ou passe pela oficina — estamos sempre prontos a ajudar.",
+    "quote_cta": "Pedir Orçamento",
+    "call_cta": "Ligar",
+    "phone": "+351 21 457 8709",
+    "address": "R. Plácido de Abreu 2, 2775-617 Carcavelos",
+    "hours": "Seg–Sex 09:00–13:00, 14:30–19:00 · Sáb–Dom Fechado",
+    "facebook": "https://www.facebook.com/revicarcarcavelos",
+    "whatsapp": "+351 934 798 352",
+    "map_link": "https://maps.google.com/?cid=5362918744507787064",
+    "map": {
+      "address": "R. Plácido de Abreu 2\n2775-617 Carcavelos",
+      "mapsEmbedUrl": "https://www.google.com/maps?cid=5362918744507787064&output=embed",
+      "mapTitle": "Revicar - Reparações Automóveis"
+    }
+  },
+  "quoteBar": {
+    "cta_quote": "Pedir Orçamento",
+    "cta_call": "Ligar",
+    "phone": "+351 21 457 8709"
+  },
+  "footer": {
+    "brand": "Revicar",
+    "tagline": "Oficina de reparação automóvel de confiança em Carcavelos.",
+    "address": "R. Plácido de Abreu 2, 2775-617 Carcavelos",
+    "hours": "Seg–Sex 09:00–13:00, 14:30–19:00 · Sáb–Dom Fechado",
+    "phone": "+351 21 457 8709",
+    "facebook": "https://www.facebook.com/revicarcarcavelos",
+    "whatsapp": "+351 934 798 352",
+    "copyright": "© 2025 Revicar - Reparações Automóveis. Todos os direitos reservados.",
+    "quote_cta": "Pedir Orçamento",
+    "explore_label": "Explorar",
+    "hours_label": "Horário",
+    "find_us_label": "Onde Estamos",
+    "made_in": "Feito em Carcavelos",
+    "nav_links": [
+      { "id": "about", "label": "Sobre Nós" },
+      { "id": "services", "label": "Serviços" },
+      { "id": "testimonials", "label": "Opiniões" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contacto" }
+    ]
   }
 }

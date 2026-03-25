@@ -1,15 +1,240 @@
 {
   "metadata": {
-    "name": "Business Name",
-    "title": "Business Name | City",
-    "description": "Welcome to my site.",
-    "phone": "",
-    "email": "",
-    "address": "",
-    "type": "LocalBusiness"
+    "name": "Revicar",
+    "title": "Revicar - Auto Repair | Carcavelos",
+    "description": "Trusted auto repair in Carcavelos. Full-service mechanics, bodywork & paint, electrical, AC, and tyres for all brands.",
+    "phone": "+351 21 457 8709",
+    "email": "info@revicar.mail.pt",
+    "address": "R. Plácido de Abreu 2, 2775-617 Carcavelos",
+    "type": "AutoRepair"
   },
-  "home": {
-    "title": "Welcome",
-    "description": "This is the starting point of your project. Edit this page to get started."
+  "navbar": {
+    "brand": "Revicar",
+    "cta": "Get a Quote",
+    "links": [
+      { "id": "about", "label": "About" },
+      { "id": "services", "label": "Services" },
+      { "id": "testimonials", "label": "Reviews" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "title_line1": "YOUR CAR,",
+    "title_line2": "OUR CARE.",
+    "tagline": "Full-service auto repair for all brands. Mechanics, bodywork, electrical, AC, and tyres — trusted by Carcavelos since 1985.",
+    "cta": "Get a Quote",
+    "cta_secondary": "Our Services",
+    "stats": [
+      { "value": "4.5★", "label": "Rating" },
+      { "value": "124+", "label": "Reviews" },
+      { "value": "40+", "label": "Years" }
+    ],
+    "ticker": [
+      { "text": "MECHANICS" },
+      { "text": "BODYWORK & PAINT" },
+      { "text": "ELECTRICAL" },
+      { "text": "AC & CLIMATE" },
+      { "text": "TYRES" }
+    ]
+  },
+  "statsCounters": {
+    "title_line1": "TRUSTED",
+    "title_line2": "NUMBERS",
+    "items": [
+      { "label": "Google Reviews", "target": 124, "suffix": "+" },
+      { "label": "Google Rating", "target": 4.5, "suffix": "★" },
+      { "label": "Services", "target": 5, "suffix": "" },
+      { "label": "Years Experience", "target": 40, "suffix": "+" }
+    ]
+  },
+  "about": {
+    "title_line1": "YOUR LOCAL",
+    "title_line2": "MECHANIC",
+    "body": "Since 1985, Revicar has been the trusted mechanic of Carcavelos. For over 40 years, we've built our reputation on honest service, quality work, and treating every customer like family.\n\nOur workshop handles everything from routine oil changes to complex engine repairs, bodywork restoration, and electrical diagnostics. We work with all brands, and our experienced team takes the time to explain what your car needs — no surprises, no unnecessary work.",
+    "stats": [
+      { "value": "1985", "label": "Founded" },
+      { "value": "4.5★", "label": "Rating" },
+      { "value": "124+", "label": "Reviews" }
+    ]
+  },
+  "services": {
+    "title_line1": "WHAT WE",
+    "title_line2": "DO",
+    "items": [
+      {
+        "icon": "🔧",
+        "title": "Mechanics",
+        "description": "Engine diagnostics, oil changes, brake repairs, suspension, timing belts — full mechanical service for all brands.",
+        "image": "/services/mechanics.jpg"
+      },
+      {
+        "icon": "🎨",
+        "title": "Bodywork & Paint",
+        "description": "Dent repair, scratch removal, full repaints, and collision restoration — your car looking like new.",
+        "image": "/services/bodywork.jpg"
+      },
+      {
+        "icon": "⚡",
+        "title": "Electrical",
+        "description": "Battery diagnostics, alternator repair, wiring issues, and electronic system troubleshooting.",
+        "image": "/services/electrical.jpg"
+      },
+      {
+        "icon": "❄️",
+        "title": "AC & Climate",
+        "description": "AC recharge, compressor repair, heating system service — stay comfortable year-round.",
+        "image": "/services/ac.jpg"
+      },
+      {
+        "icon": "🛞",
+        "title": "Tyres",
+        "description": "Tyre fitting, balancing, alignment, and rotation. Quality tyres from trusted brands at fair prices.",
+        "image": "/services/tyres.jpg"
+      }
+    ]
+  },
+  "galleryStrip": {
+    "images": [
+      { "src": "/gallery/1.jpg", "alt": "Revicar workshop interior" },
+      { "src": "/gallery/2.jpg", "alt": "Mechanic working under the hood" },
+      { "src": "/gallery/3.jpg", "alt": "Car on the lift at Revicar" },
+      { "src": "/gallery/4.jpg", "alt": "Bodywork and paint job in progress" },
+      { "src": "/gallery/5.jpg", "alt": "Engine diagnostics equipment" },
+      { "src": "/gallery/6.jpg", "alt": "Tyre fitting and alignment" },
+      { "src": "/gallery/7.jpg", "alt": "Revicar team at work" },
+      { "src": "/gallery/8.jpg", "alt": "Finished car after repair" }
+    ]
+  },
+  "reviews": {
+    "title_line1": "WHAT DRIVERS",
+    "title_line2": "SAY",
+    "subtitle": "Real feedback from real customers.",
+    "items": [
+      {
+        "quote": "Honest and professional. I went to Norauto first because I have a card there, but once again they couldn't fix the problem. I called Revicar and they couldn't have been more professional and honest. They won a customer!",
+        "name": "Pedro Fernandes",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Work of excellence, I recommend! The service is great and the work is very professional. Whenever I leave my car I'm very satisfied and trust 100% in the work done by Revicar — even in urgent situations they've always managed to help me.",
+        "name": "Maria João Azinheira",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "I came in with doubts and quite pessimistic about the mechanical problem with my car, but I left with the problem solved. I highly recommend them, especially for their competence, honesty and friendliness.",
+        "name": "Pedro Carmo",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Very friendly — I had a problem that seemed difficult to fix and they solved it on the spot. We just moved to the neighbourhood and I'm already a customer!",
+        "name": "Rafael Madureira",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Friendly, transparent and competent mechanics. I had a problem with my van and they fixed it in two and a half days. Would definitely go back!",
+        "name": "Jannes T",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Excellent service with a very serious attitude. They've become THE trusted garage for all the cars in our household.",
+        "name": "Júlio Martins",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      }
+    ]
+  },
+  "googleReviews": {
+    "title_line1": "HAPPY WITH",
+    "title_line2": "OUR WORK?",
+    "subtitle": "Your review helps other drivers find a mechanic they can trust — and it means the world to our team.",
+    "cta": "Leave a Google Review",
+    "rating_label": "Rated on Google"
+  },
+  "faq": {
+    "title_line1": "COMMON",
+    "title_line2": "QUESTIONS",
+    "items": [
+      {
+        "question": "Do you work with all car brands?",
+        "answer": "Yes, we service all makes and models — from European brands like BMW, Mercedes, and Volkswagen to Asian brands like Toyota, Honda, and Hyundai."
+      },
+      {
+        "question": "Do I need an appointment?",
+        "answer": "We recommend calling ahead so we can plan your visit, but walk-ins are welcome for quick services like tyre checks or battery diagnostics."
+      },
+      {
+        "question": "How long does a typical repair take?",
+        "answer": "It depends on the service. An oil change takes about 30 minutes, brake work 1-2 hours, and more complex repairs we'll give you a clear timeline upfront."
+      },
+      {
+        "question": "Do you provide free estimates?",
+        "answer": "Yes, we provide free, no-obligation quotes for all services. Call us or visit the workshop and we'll assess your car."
+      },
+      {
+        "question": "What are your payment options?",
+        "answer": "We accept cash, debit/credit cards, and bank transfer. Payment is due when you pick up your vehicle."
+      },
+      {
+        "question": "Is there parking available?",
+        "answer": "Yes, we have space for you to park when dropping off or picking up your car."
+      }
+    ]
+  },
+  "contact": {
+    "title_line1": "GET IN",
+    "title_line2": "TOUCH",
+    "body": "Need a repair, a quote, or just some advice? Give us a call or drop by the workshop — we're always happy to help.",
+    "quote_cta": "Get a Quote",
+    "call_cta": "Call Us",
+    "phone": "+351 21 457 8709",
+    "address": "R. Plácido de Abreu 2, 2775-617 Carcavelos",
+    "hours": "Mon–Fri 09:00–13:00, 14:30–19:00 · Sat–Sun Closed",
+    "facebook": "https://www.facebook.com/revicarcarcavelos",
+    "whatsapp": "+351 934 798 352",
+    "map_link": "https://maps.google.com/?cid=5362918744507787064",
+    "map": {
+      "address": "R. Plácido de Abreu 2\n2775-617 Carcavelos",
+      "mapsEmbedUrl": "https://www.google.com/maps?cid=5362918744507787064&output=embed",
+      "mapTitle": "Revicar - Auto Repair location"
+    }
+  },
+  "quoteBar": {
+    "cta_quote": "Get a Quote",
+    "cta_call": "Call Us",
+    "phone": "+351 21 457 8709"
+  },
+  "footer": {
+    "brand": "Revicar",
+    "tagline": "Trusted auto repair for all brands in Carcavelos.",
+    "address": "R. Plácido de Abreu 2, 2775-617 Carcavelos",
+    "hours": "Mon–Fri 09:00–13:00, 14:30–19:00 · Sat–Sun Closed",
+    "phone": "+351 21 457 8709",
+    "facebook": "https://www.facebook.com/revicarcarcavelos",
+    "whatsapp": "+351 934 798 352",
+    "copyright": "© 2025 Revicar - Reparações Automóveis. All rights reserved.",
+    "quote_cta": "Get a Quote",
+    "explore_label": "Explore",
+    "hours_label": "Hours",
+    "find_us_label": "Find Us",
+    "made_in": "Made in Carcavelos",
+    "nav_links": [
+      { "id": "about", "label": "About" },
+      { "id": "services", "label": "Services" },
+      { "id": "testimonials", "label": "Reviews" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "contact", "label": "Contact" }
+    ]
   }
 }
