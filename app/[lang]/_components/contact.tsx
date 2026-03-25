@@ -42,7 +42,7 @@ export default function Contact({ dict }: { dict: ContactDict }) {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#2563eb]">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#dc2626]">
             {dict.title_line1}
           </p>
           <h2 className="mt-2 text-4xl font-black tracking-tight text-[#0f172a] sm:text-5xl">
@@ -64,10 +64,10 @@ export default function Contact({ dict }: { dict: ContactDict }) {
             {/* Phone */}
             <a
               href={`tel:${dict.phone}`}
-              className="group flex items-center gap-4 rounded-xl p-3 -mx-3 transition-colors hover:bg-blue-50"
+              className="group flex items-center gap-4 rounded-xl p-3 -mx-3 transition-colors hover:bg-red-50"
             >
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 transition-colors group-hover:bg-blue-200">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#1e3a5f]">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-red-50 transition-colors group-hover:bg-red-100">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-zinc-900">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.1 3.4 2 2 0 0 1 3.08 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16z" />
                 </svg>
               </div>
@@ -82,10 +82,10 @@ export default function Contact({ dict }: { dict: ContactDict }) {
               href={dict.map_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-4 rounded-xl p-3 -mx-3 transition-colors hover:bg-blue-50"
+              className="group flex items-center gap-4 rounded-xl p-3 -mx-3 transition-colors hover:bg-red-50"
             >
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 transition-colors group-hover:bg-blue-200">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#1e3a5f]">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-red-50 transition-colors group-hover:bg-red-100">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-zinc-900">
                   <path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0Z" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
@@ -102,7 +102,7 @@ export default function Contact({ dict }: { dict: ContactDict }) {
                   href={dict.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-[#1e3a5f] transition-colors hover:bg-blue-200"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-red-50 text-zinc-900 transition-colors hover:bg-red-100"
                   aria-label="Facebook"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -135,7 +135,7 @@ export default function Contact({ dict }: { dict: ContactDict }) {
           >
             <div
               className="flex h-full flex-col justify-between p-8 lg:p-10"
-              style={{ background: "linear-gradient(160deg, #eff6ff 0%, #dbeafe 50%, #fef2f2 100%)" }}
+              style={{ background: "linear-gradient(160deg, #fafafa 0%, #f4f4f5 50%, #fef2f2 100%)" }}
             >
               <div>
                 <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-white/80 shadow-sm">
@@ -162,7 +162,7 @@ export default function Contact({ dict }: { dict: ContactDict }) {
                 </a>
                 <a
                   href={`tel:${dict.phone}`}
-                  className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-zinc-200 bg-white/80 py-3.5 text-sm font-semibold text-zinc-700 transition-all hover:border-blue-200 hover:text-[#1e3a5f]"
+                  className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-zinc-200 bg-white/80 py-3.5 text-sm font-semibold text-zinc-700 transition-all hover:border-red-200 hover:text-zinc-900"
                 >
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12 19.79 19.79 0 0 1 1.1 3.4 2 2 0 0 1 3.08 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16z" />

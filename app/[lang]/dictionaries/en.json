@@ -11,9 +11,15 @@
   "navbar": {
     "brand": "Revicar",
     "cta": "Get a Quote",
+    "phone": "+351 21 457 8709",
+    "email": "info@revicar.mail.pt",
+    "address": "Carcavelos",
+    "facebook": "https://www.facebook.com/revicarcarcavelos",
+    "instagram": "https://www.instagram.com/revicar_carcavelos/",
+    "whatsapp": "https://wa.me/351934798352",
     "links": [
-      { "id": "about", "label": "About" },
       { "id": "services", "label": "Services" },
+      { "id": "about", "label": "About" },
       { "id": "testimonials", "label": "Reviews" },
       { "id": "faq", "label": "FAQ" },
       { "id": "contact", "label": "Contact" }
@@ -35,7 +41,8 @@
       { "text": "BODYWORK & PAINT" },
       { "text": "ELECTRICAL" },
       { "text": "AC & CLIMATE" },
-      { "text": "TYRES" }
+      { "text": "TYRES" },
+      { "text": "INSPECTION" }
     ]
   },
   "statsCounters": {
@@ -44,7 +51,7 @@
     "items": [
       { "label": "Google Reviews", "target": 124, "suffix": "+" },
       { "label": "Google Rating", "target": 4.5, "suffix": "★" },
-      { "label": "Services", "target": 5, "suffix": "" },
+      { "label": "Services", "target": 6, "suffix": "" },
       { "label": "Years Experience", "target": 40, "suffix": "+" }
     ]
   },
@@ -91,6 +98,12 @@
         "title": "Tyres",
         "description": "Tyre fitting, balancing, alignment, and rotation. Quality tyres from trusted brands at fair prices.",
         "image": "/services/tyres.jpg"
+      },
+      {
+        "icon": "📋",
+        "title": "Vehicle Inspection",
+        "description": "Pre-inspection checks, preparation, and full vehicle inspections. We make sure your car passes with confidence.",
+        "image": "/services/inspection.jpg"
       }
     ]
   },
@@ -203,10 +216,10 @@
     "hours": "Mon–Fri 09:00–13:00, 14:30–19:00 · Sat–Sun Closed",
     "facebook": "https://www.facebook.com/revicarcarcavelos",
     "whatsapp": "+351 934 798 352",
-    "map_link": "https://maps.google.com/?cid=5362918744507787064",
+    "map_link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0xd1ec8cfab56d835:0x4a6cea2f25aba738?sa=X&ved=1t:8290&ictx=111",
     "map": {
       "address": "R. Plácido de Abreu 2\n2775-617 Carcavelos",
-      "mapsEmbedUrl": "https://www.google.com/maps?cid=5362918744507787064&output=embed",
+      "mapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3113!2d-9.34!3d38.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec8cfab56d835%3A0x4a6cea2f25aba738!2sRevicar!5e0!3m2!1spt!2spt",
       "mapTitle": "Revicar - Auto Repair location"
     }
   },

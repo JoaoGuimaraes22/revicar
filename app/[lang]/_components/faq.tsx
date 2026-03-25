@@ -31,7 +31,7 @@ export default function FAQ({ dict }: { dict: FAQDict }) {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
           <span className="block text-[#0f172a]">{dict.title_line1}</span>
-          <span className="block text-[#1e3a5f]/20">{dict.title_line2}</span>
+          <span className="block text-zinc-900/10">{dict.title_line2}</span>
         </motion.h2>
 
         <div className="divide-y divide-zinc-100 rounded-2xl border border-zinc-100 bg-white shadow-sm">
@@ -47,7 +47,7 @@ export default function FAQ({ dict }: { dict: FAQDict }) {
                 onClick={() => toggle(i)}
                 aria-expanded={openIndex === i}
                 aria-controls={`faq-answer-${i}`}
-                className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left transition-colors hover:bg-blue-50/50"
+                className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left transition-colors hover:bg-red-50/50"
               >
                 <span className="text-sm font-semibold text-zinc-900">{item.question}</span>
                 <motion.svg
@@ -59,7 +59,7 @@ export default function FAQ({ dict }: { dict: FAQDict }) {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="shrink-0 text-[#2563eb]"
+                  className="shrink-0 text-[#dc2626]"
                   animate={{ rotate: openIndex === i ? 180 : 0 }}
                   transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
                 >

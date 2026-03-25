@@ -34,7 +34,7 @@ export default function QuoteBar({ dict }: { dict: QuoteBarDict }) {
         </button>
         <a
           href={`tel:${dict.phone}`}
-          className="flex-1 cursor-pointer rounded-xl bg-[#1e3a5f] py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-[#2563eb]"
+          className="flex-1 cursor-pointer rounded-xl bg-zinc-900 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-zinc-700"
         >
           {dict.cta_call}
         </a>

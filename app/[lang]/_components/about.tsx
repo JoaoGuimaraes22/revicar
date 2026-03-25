@@ -35,7 +35,7 @@ export default function About({ dict }: { dict: AboutDict }) {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
-            <Image src="/about.jpg" alt="About us" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+            <Image src="/about/about.jpg" alt="About us" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
           </motion.div>
 
           <motion.div
@@ -45,7 +45,7 @@ export default function About({ dict }: { dict: AboutDict }) {
           >
             <h2 className="mb-8 font-black uppercase leading-none tracking-tight text-4xl sm:text-5xl md:text-6xl">
               <span className="block text-[#0f172a]">{dict.title_line1}</span>
-              <span className="block text-[#1e3a5f]/20">{dict.title_line2}</span>
+              <span className="block text-zinc-900/10">{dict.title_line2}</span>
             </h2>
 
             <div className="space-y-4">
@@ -66,7 +66,7 @@ export default function About({ dict }: { dict: AboutDict }) {
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.5, delay: 0.3 + i * 0.08, ease: [0.16, 1, 0.3, 1] }}
                   >
-                    <div className="text-2xl font-black text-[#1e3a5f] sm:text-3xl">
+                    <div className="text-2xl font-black text-zinc-900 sm:text-3xl">
                       {stat.value}
                     </div>
                     <div className="mt-1 text-xs font-medium text-zinc-500 leading-tight">

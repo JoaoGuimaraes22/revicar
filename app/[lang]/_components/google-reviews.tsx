@@ -36,7 +36,7 @@ export default function GoogleReviews({ dict }: { dict: GoogleReviewsDict }) {
       id="google-reviews"
       ref={ref}
       className="relative overflow-hidden px-6 py-12 md:px-8 md:py-16"
-      style={{ background: "linear-gradient(165deg, #eff6ff 0%, #dbeafe 40%, #e0f2fe 100%)" }}
+      style={{ background: "linear-gradient(165deg, #fafafa 0%, #f4f4f5 40%, #fef2f2 100%)" }}
     >
       <div className="relative mx-auto max-w-4xl">
         <div className="flex flex-col items-center gap-6 rounded-3xl bg-white/60 px-6 py-10 text-center shadow-sm ring-1 ring-zinc-200/40 backdrop-blur-sm md:px-12 md:py-12">
@@ -55,7 +55,7 @@ export default function GoogleReviews({ dict }: { dict: GoogleReviewsDict }) {
           {/* Copy */}
           <motion.div {...fadeUp(0.05)}>
             <h2 className="text-2xl md:text-3xl font-black tracking-tight text-[#0f172a]">
-              {dict.title_line1} <span className="text-[#2563eb]">{dict.title_line2}</span>
+              {dict.title_line1} <span className="text-[#dc2626]">{dict.title_line2}</span>
             </h2>
             <p className="mt-2 text-sm text-zinc-500 max-w-md mx-auto">
               {dict.subtitle}
@@ -68,7 +68,7 @@ export default function GoogleReviews({ dict }: { dict: GoogleReviewsDict }) {
               href={REVIEW_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 rounded-full bg-white px-6 py-3 text-sm font-semibold text-zinc-700 shadow-md ring-1 ring-zinc-200/50 transition-all duration-200 hover:shadow-lg hover:scale-[1.02] hover:ring-blue-200 active:scale-[0.98]"
+              className="inline-flex items-center gap-2.5 rounded-full bg-white px-6 py-3 text-sm font-semibold text-zinc-700 shadow-md ring-1 ring-zinc-200/50 transition-all duration-200 hover:shadow-lg hover:scale-[1.02] hover:ring-red-200 active:scale-[0.98]"
             >
               <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
                 <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />

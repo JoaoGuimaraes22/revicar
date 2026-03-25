@@ -26,7 +26,7 @@ export default function Services({ dict }: { dict: ServicesDict }) {
     <section
       id="services"
       ref={ref}
-      className="relative bg-[#0f1f35] px-6 py-20 md:px-8 md:py-28 xl:px-16 xl:py-36 overflow-hidden"
+      className="relative bg-white px-6 py-20 md:px-8 md:py-28 xl:px-16 xl:py-36 overflow-hidden"
     >
       {/* Subtle background texture */}
       <div
@@ -48,7 +48,7 @@ export default function Services({ dict }: { dict: ServicesDict }) {
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-red-500">
             {dict.title_line1}
           </p>
-          <h2 className="mt-2 text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h2 className="mt-2 text-4xl font-black tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
             {dict.title_line2}
           </h2>
           <div className="mt-4 h-1 w-16 bg-red-600 rounded-full" />
@@ -62,7 +62,7 @@ export default function Services({ dict }: { dict: ServicesDict }) {
             return (
               <motion.div
                 key={i}
-                className="group relative overflow-hidden rounded-2xl bg-[#162a45] border border-white/5 shadow-lg cursor-default transition-all duration-500 hover:shadow-2xl hover:shadow-red-900/10 hover:border-white/10"
+                className="group relative overflow-hidden rounded-2xl bg-white border border-zinc-200 shadow-md cursor-default transition-all duration-500 hover:shadow-xl hover:shadow-red-900/5 hover:border-zinc-300"
                 initial={{ opacity: 0, y: 40 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{
@@ -85,10 +85,10 @@ export default function Services({ dict }: { dict: ServicesDict }) {
                     }`}
                   />
                   {/* Gradient overlay on image */}
-                  <div className="absolute inset-0 bg-linear-to-t from-[#162a45] via-[#162a45]/40 to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-white/60 via-transparent to-transparent" />
 
                   {/* Icon badge */}
-                  <div className="absolute top-4 left-4 flex h-11 w-11 items-center justify-center rounded-xl bg-[#1e3a5f]/90 text-lg shadow-md backdrop-blur-sm ring-1 ring-white/10">
+                  <div className="absolute top-4 left-4 flex h-11 w-11 items-center justify-center rounded-xl bg-white/90 text-lg shadow-md backdrop-blur-sm ring-1 ring-zinc-200">
                     {item.icon}
                   </div>
 
@@ -102,8 +102,8 @@ export default function Services({ dict }: { dict: ServicesDict }) {
 
                 {/* Content */}
                 <div className="p-5 pt-3">
-                  <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>
-                  <p className="text-sm leading-relaxed text-zinc-400">{item.description}</p>
+                  <h3 className="text-lg font-bold text-zinc-900 mb-2">{item.title}</h3>
+                  <p className="text-sm leading-relaxed text-zinc-600">{item.description}</p>
                 </div>
               </motion.div>
             );

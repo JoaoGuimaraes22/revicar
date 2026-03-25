@@ -18,12 +18,12 @@ interface ReviewsDict {
 }
 
 const AVATAR_COLORS = [
-  { bg: "bg-blue-100", text: "text-blue-700" },
-  { bg: "bg-sky-100", text: "text-sky-700" },
-  { bg: "bg-indigo-100", text: "text-indigo-700" },
+  { bg: "bg-red-50", text: "text-red-700" },
+  { bg: "bg-zinc-100", text: "text-zinc-700" },
+  { bg: "bg-red-100", text: "text-red-600" },
   { bg: "bg-slate-100", text: "text-slate-700" },
-  { bg: "bg-cyan-100", text: "text-cyan-700" },
-  { bg: "bg-blue-50", text: "text-blue-600" },
+  { bg: "bg-zinc-200", text: "text-zinc-600" },
+  { bg: "bg-red-50", text: "text-red-500" },
 ];
 
 function TestimonialCard({ item, colorIndex }: { item: TestimonialItem; colorIndex: number }) {
@@ -41,7 +41,7 @@ function TestimonialCard({ item, colorIndex }: { item: TestimonialItem; colorInd
         height="18"
         viewBox="0 0 24 18"
         fill="none"
-        className="text-blue-200 shrink-0"
+        className="text-red-200 shrink-0"
       >
         <path
           d="M0 18V10.8C0 7.2 1.2 4.2 3.6 1.8L5.4 0l2.4 1.8C6.6 3 5.7 4.5 5.4 6H9V18H0zm13.2 0V10.8c0-3.6 1.2-6.6 3.6-9L18.6 0l2.4 1.8C19.8 3 18.9 4.5 18.6 6H22.2V18H13.2z"
@@ -126,7 +126,7 @@ export default function Reviews({ dict }: { dict: ReviewsDict }) {
           <h2 className="font-black uppercase tracking-tight text-4xl sm:text-5xl md:text-6xl text-[#0f172a]">
             {dict.title_line1}
           </h2>
-          <h2 className="font-black uppercase tracking-tight text-4xl sm:text-5xl md:text-6xl text-[#1e3a5f]/20">
+          <h2 className="font-black uppercase tracking-tight text-4xl sm:text-5xl md:text-6xl text-zinc-900/10">
             {dict.title_line2}
           </h2>
           {dict.subtitle && (

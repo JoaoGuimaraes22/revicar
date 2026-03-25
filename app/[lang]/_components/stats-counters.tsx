@@ -44,7 +44,7 @@ function Counter({ item }: { item: StatItem }) {
         {inView || prefersReduced ? count.toLocaleString() : "0"}
         {item.suffix}
       </span>
-      <span className="text-xs font-semibold uppercase tracking-widest text-blue-200">
+      <span className="text-xs font-semibold uppercase tracking-widest text-zinc-400">
         {item.label}
       </span>
     </div>
@@ -56,7 +56,7 @@ export default function StatsCounters({ dict }: { dict: StatsCountersDict }) {
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section ref={ref} className="bg-[#1e3a5f] px-6 py-4 md:px-8">
+    <section ref={ref} className="bg-zinc-900 px-6 py-4 md:px-8">
       {(dict.title_line1 || dict.title_line2) && (
         <motion.div
           className="mb-6 text-center"
@@ -65,7 +65,7 @@ export default function StatsCounters({ dict }: { dict: StatsCountersDict }) {
           transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] as const }}
         >
           {dict.title_line1 && (
-            <p className="text-xs font-semibold uppercase tracking-widest text-blue-300">
+            <p className="text-xs font-semibold uppercase tracking-widest text-zinc-300">
               {dict.title_line1}
             </p>
           )}
@@ -77,7 +77,7 @@ export default function StatsCounters({ dict }: { dict: StatsCountersDict }) {
 
       <div
         className={[
-          "mx-auto grid max-w-4xl divide-x divide-blue-400/20",
+          "mx-auto grid max-w-4xl divide-x divide-zinc-700/20",
           ({ 1: "grid-cols-1", 2: "grid-cols-2", 3: "grid-cols-3" } as Record<number, string>)[
             dict.items.length
           ] ?? "grid-cols-2 sm:grid-cols-4",

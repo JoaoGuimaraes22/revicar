@@ -19,8 +19,9 @@
 - **Website**: https://www.facebook.com/revicarcarcavelos
 - **Instagram**:
 - **Facebook**:
-- **Google Maps**: https://maps.google.com/?cid=5362918744507787064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA
-- **Google Maps Embed**: https://www.google.com/maps?cid=5362918744507787064&output=embed
+- **Google Maps**: https://www.google.com/maps/place//data=!4m2!3m1!1s0xd1ec8cfab56d835:0x4a6cea2f25aba738?sa=X&ved=1t:8290&ictx=111
+- **Google Maps Embed**: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3113!2d-9.34!3d38.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec8cfab56d835%3A0x4a6cea2f25aba738!2sRevicar!5e0!3m2!1spt!2spt
+- **Instagram**: https://www.instagram.com/revicar_carcavelos/
 - **Order Online URL**: (e.g. Uber Eats link)
 
 ## Hours

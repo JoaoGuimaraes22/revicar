@@ -23,79 +23,6 @@ interface HeroDict {
   ticker: TickerItem[];
 }
 
-/* ── Floating gear accent ─────────────────────────────────────── */
-function FloatingGear({
-  delay,
-  duration,
-  left,
-  size,
-  hidden,
-}: {
-  delay: number;
-  duration: number;
-  left: string;
-  size: number;
-  hidden?: boolean;
-}) {
-  if (hidden) return null;
-  return (
-    <div
-      className="absolute pointer-events-none text-white/[0.07]"
-      style={{
-        left,
-        bottom: "5%",
-        animation: `float-gear ${duration}s ease-out ${delay}s infinite`,
-      }}
-    >
-      <svg
-        width={size}
-        height={size}
-        viewBox="0 0 64 64"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M36 4h-8v6.1A18.1 18.1 0 0 0 20.5 14L15.7 9.3l-5.6 5.6 4.8 4.8A18.1 18.1 0 0 0 10.1 28H4v8h6.1a18.1 18.1 0 0 0 4.8 8.5l-4.8 4.8 5.6 5.6 4.8-4.8A18.1 18.1 0 0 0 28 53.9V60h8v-6.1a18.1 18.1 0 0 0 8.5-3.8l4.8 4.8 5.6-5.6-4.8-4.8A18.1 18.1 0 0 0 53.9 36H60v-8h-6.1a18.1 18.1 0 0 0-3.8-8.5l4.8-4.8-5.6-5.6-4.8 4.8A18.1 18.1 0 0 0 36 10.1V4ZM32 44a12 12 0 1 1 0-24 12 12 0 0 1 0 24Z" />
-      </svg>
-    </div>
-  );
-}
-
-function FloatingWrench({
-  delay,
-  duration,
-  left,
-  size,
-  hidden,
-}: {
-  delay: number;
-  duration: number;
-  left: string;
-  size: number;
-  hidden?: boolean;
-}) {
-  if (hidden) return null;
-  return (
-    <div
-      className="absolute pointer-events-none text-white/[0.06]"
-      style={{
-        left,
-        bottom: "8%",
-        animation: `float-gear ${duration}s ease-out ${delay}s infinite`,
-      }}
-    >
-      <svg
-        width={size}
-        height={size}
-        viewBox="0 0 64 64"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M54.5 9.5a16 16 0 0 0-20.3 1.8l-1.4 1.4L9.5 36l-3.5 3.5a8 8 0 0 0 11.3 11.3L21 47.1l23.3-23.3 1.4-1.4a16 16 0 0 0 1.8-20.3l-6.4 6.4-5.6-5.6 6.4-6.4ZM15.5 45.5a2 2 0 1 1-2.8-2.8 2 2 0 0 1 2.8 2.8Z" />
-      </svg>
-    </div>
-  );
-}
-
 export default function Hero({ dict }: { dict: HeroDict }) {
   const [visible, setVisible] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -129,7 +56,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
       <section
         id="home"
         ref={sectionRef}
-        className="noise-texture relative flex min-h-screen items-center justify-center overflow-hidden bg-[#0a1628]"
+        className="noise-texture relative flex min-h-screen items-center justify-center overflow-hidden bg-zinc-950"
       >
         {/* Parallax background image */}
         <motion.div
@@ -143,19 +70,20 @@ export default function Hero({ dict }: { dict: HeroDict }) {
               bottom: "-20%",
             }}
           >
-            <Image
-              src="/hero.jpg"
-              alt="Mechanic workshop with professional tools and lighting"
-              fill
-              sizes="100vw"
-              className="object-cover"
-              priority
-            />
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 h-full w-full object-cover"
+            >
+              <source src="/hero/hero-video.mp4" type="video/mp4" />
+            </video>
           </div>
         </motion.div>
 
         {/* Dark gradient overlay — navy to black */}
-        <div className="absolute inset-0 pointer-events-none bg-linear-to-t from-[#0a1628]/98 via-[#1e3a5f]/60 to-[#0a1628]/80" />
+        <div className="absolute inset-0 pointer-events-none bg-linear-to-t from-[#111]/70 via-[#111]/20 to-[#111]/30" />
 
         {/* Subtle radial accent glow */}
         <div
@@ -171,20 +99,10 @@ export default function Hero({ dict }: { dict: HeroDict }) {
           className="absolute inset-0 pointer-events-none"
           style={{
             background:
-              "radial-gradient(circle at 50% 50%, rgba(30,58,95,0.3) 0%, transparent 60%)",
+              "radial-gradient(circle at 50% 50%, rgba(17,17,17,0.3) 0%, transparent 60%)",
             animation: prefersReduced ? undefined : "engine-pulse 4s ease-in-out infinite",
           }}
         />
-
-        {/* Floating gear/wrench accents */}
-        <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <FloatingGear delay={0} duration={6} left="8%" size={48} hidden={prefersReduced} />
-          <FloatingGear delay={2.5} duration={7} left="25%" size={32} hidden={prefersReduced} />
-          <FloatingWrench delay={1} duration={5.5} left="75%" size={40} hidden={prefersReduced} />
-          <FloatingGear delay={3.5} duration={6.5} left="88%" size={56} hidden={prefersReduced} />
-          <FloatingWrench delay={4} duration={8} left="60%" size={28} hidden={prefersReduced} />
-          <FloatingGear delay={1.8} duration={7.5} left="42%" size={36} hidden={prefersReduced} />
-        </div>
 
         {/* Main content */}
         <motion.div
@@ -309,7 +227,7 @@ export default function Hero({ dict }: { dict: HeroDict }) {
       </section>
 
       {/* ── Services ticker bar ─────────────────────────────────── */}
-      <div className="relative z-20 w-full overflow-hidden bg-[#142d4d] py-4 border-y border-white/5">
+      <div className="relative z-20 w-full overflow-hidden bg-zinc-900 py-4 border-y border-white/5">
         <div className="ticker-track flex w-max items-center gap-0">
           {tickerItems.map((item, i) => (
             <div key={i} className="flex items-center shrink-0">
