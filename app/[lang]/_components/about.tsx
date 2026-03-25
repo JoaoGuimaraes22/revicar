@@ -35,7 +35,7 @@ export default function About({ dict }: { dict: AboutDict }) {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
-            <Image src="/about/about.jpg" alt="About us" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+            <Image src="/about/about.webp" alt="About us" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
           </motion.div>
 
           <motion.div

@@ -73,50 +73,50 @@
         "icon": "🔧",
         "title": "Mecânica",
         "description": "Diagnósticos de motor, mudanças de óleo, reparação de travões, suspensão, correias de distribuição — serviço mecânico completo para todas as marcas.",
-        "image": "/services/mechanics.jpg"
+        "image": "/services/mechanics.webp"
       },
       {
         "icon": "🎨",
         "title": "Chapa e Pintura",
         "description": "Reparação de amolgadelas, remoção de riscos, repinturas completas e restauro de colisões — o seu carro como novo.",
-        "image": "/services/bodywork.jpg"
+        "image": "/services/bodywork.webp"
       },
       {
         "icon": "⚡",
         "title": "Eletricista",
         "description": "Diagnósticos de bateria, reparação de alternador, problemas de cablagem e resolução de sistemas eletrónicos.",
-        "image": "/services/electrical.jpg"
+        "image": "/services/electrical.webp"
       },
       {
         "icon": "❄️",
         "title": "Climatização",
         "description": "Recarga de AC, reparação de compressor, manutenção do sistema de aquecimento — conforto durante todo o ano.",
-        "image": "/services/ac.jpg"
+        "image": "/services/ac.webp"
       },
       {
         "icon": "🛞",
         "title": "Pneus",
         "description": "Montagem de pneus, equilíbrio, alinhamento e rotação. Pneus de qualidade de marcas de confiança a preços justos.",
-        "image": "/services/tyres.jpg"
+        "image": "/services/tyres.webp"
       },
       {
         "icon": "📋",
         "title": "Inspeção",
         "description": "Verificações pré-inspeção, preparação e inspeções completas de veículos. Garantimos que o seu carro passa com confiança.",
-        "image": "/services/inspection.jpg"
+        "image": "/services/inspection.webp"
       }
     ]
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/1.jpg", "alt": "Interior da oficina Revicar" },
-      { "src": "/gallery/2.jpg", "alt": "Mecânico a trabalhar no motor" },
-      { "src": "/gallery/3.jpg", "alt": "Carro no elevador na Revicar" },
-      { "src": "/gallery/4.jpg", "alt": "Trabalho de chapa e pintura" },
-      { "src": "/gallery/5.jpg", "alt": "Equipamento de diagnóstico de motor" },
-      { "src": "/gallery/6.jpg", "alt": "Montagem e alinhamento de pneus" },
-      { "src": "/gallery/7.jpg", "alt": "Equipa Revicar em ação" },
-      { "src": "/gallery/8.jpg", "alt": "Carro finalizado após reparação" }
+      { "src": "/gallery/1.webp", "alt": "Interior da oficina Revicar" },
+      { "src": "/gallery/2.webp", "alt": "Mecânico a trabalhar no motor" },
+      { "src": "/gallery/3.webp", "alt": "Carro no elevador na Revicar" },
+      { "src": "/gallery/4.webp", "alt": "Trabalho de chapa e pintura" },
+      { "src": "/gallery/5.webp", "alt": "Equipamento de diagnóstico de motor" },
+      { "src": "/gallery/6.webp", "alt": "Montagem e alinhamento de pneus" },
+      { "src": "/gallery/7.webp", "alt": "Equipa Revicar em ação" },
+      { "src": "/gallery/8.webp", "alt": "Carro finalizado após reparação" }
     ]
   },
   "reviews": {

@@ -73,50 +73,50 @@
         "icon": "🔧",
         "title": "Mechanics",
         "description": "Engine diagnostics, oil changes, brake repairs, suspension, timing belts — full mechanical service for all brands.",
-        "image": "/services/mechanics.jpg"
+        "image": "/services/mechanics.webp"
       },
       {
         "icon": "🎨",
         "title": "Bodywork & Paint",
         "description": "Dent repair, scratch removal, full repaints, and collision restoration — your car looking like new.",
-        "image": "/services/bodywork.jpg"
+        "image": "/services/bodywork.webp"
       },
       {
         "icon": "⚡",
         "title": "Electrical",
         "description": "Battery diagnostics, alternator repair, wiring issues, and electronic system troubleshooting.",
-        "image": "/services/electrical.jpg"
+        "image": "/services/electrical.webp"
       },
       {
         "icon": "❄️",
         "title": "AC & Climate",
         "description": "AC recharge, compressor repair, heating system service — stay comfortable year-round.",
-        "image": "/services/ac.jpg"
+        "image": "/services/ac.webp"
       },
       {
         "icon": "🛞",
         "title": "Tyres",
         "description": "Tyre fitting, balancing, alignment, and rotation. Quality tyres from trusted brands at fair prices.",
-        "image": "/services/tyres.jpg"
+        "image": "/services/tyres.webp"
       },
       {
         "icon": "📋",
         "title": "Vehicle Inspection",
         "description": "Pre-inspection checks, preparation, and full vehicle inspections. We make sure your car passes with confidence.",
-        "image": "/services/inspection.jpg"
+        "image": "/services/inspection.webp"
       }
     ]
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/1.jpg", "alt": "Revicar workshop interior" },
-      { "src": "/gallery/2.jpg", "alt": "Mechanic working under the hood" },
-      { "src": "/gallery/3.jpg", "alt": "Car on the lift at Revicar" },
-      { "src": "/gallery/4.jpg", "alt": "Bodywork and paint job in progress" },
-      { "src": "/gallery/5.jpg", "alt": "Engine diagnostics equipment" },
-      { "src": "/gallery/6.jpg", "alt": "Tyre fitting and alignment" },
-      { "src": "/gallery/7.jpg", "alt": "Revicar team at work" },
-      { "src": "/gallery/8.jpg", "alt": "Finished car after repair" }
+      { "src": "/gallery/1.webp", "alt": "Revicar workshop interior" },
+      { "src": "/gallery/2.webp", "alt": "Mechanic working under the hood" },
+      { "src": "/gallery/3.webp", "alt": "Car on the lift at Revicar" },
+      { "src": "/gallery/4.webp", "alt": "Bodywork and paint job in progress" },
+      { "src": "/gallery/5.webp", "alt": "Engine diagnostics equipment" },
+      { "src": "/gallery/6.webp", "alt": "Tyre fitting and alignment" },
+      { "src": "/gallery/7.webp", "alt": "Revicar team at work" },
+      { "src": "/gallery/8.webp", "alt": "Finished car after repair" }
     ]
   },
   "reviews": {
