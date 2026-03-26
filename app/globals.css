@@ -95,7 +95,6 @@ body {
 .gallery-track {
   animation: gallery-scroll 40s linear infinite;
 }
-}
 
 /* ── Reviews animations ──────────────────────────────────────── */
 @keyframes testimonials-scroll-up {
