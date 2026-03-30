@@ -12,7 +12,7 @@ const cspHeader = `
   base-uri 'self';
   form-action 'self';
   frame-src 'self' https://www.google.com https://maps.google.com;
-  frame-ancestors 'none';
+  frame-ancestors 'self' https://surgex.pt https://www.surgex.pt https://*.vercel.app;
   upgrade-insecure-requests;
 `;
 
@@ -29,7 +29,7 @@ const nextConfig: NextConfig = {
             key: "Content-Security-Policy",
             value: cspHeader.replace(/\n/g, "").replace(/\s{2,}/g, " ").trim(),
           },
-          { key: "X-Frame-Options", value: "DENY" },
+          { key: "X-Frame-Options", value: "ALLOW-FROM https://surgex.pt" },
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "Permissions-Policy", value: "camera=(), microphone=()" },
